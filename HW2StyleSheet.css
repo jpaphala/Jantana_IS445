@@ -1,0 +1,15 @@
+﻿h1 {text-align:center;
+
+}
+hr {
+    width: 100%; color:limegreen; height:8px;
+}
+Footer {
+    font-style: italic;
+}
+form {
+    width: 500px;
+}
+textarea {
+    overflow: hidden;
+}
