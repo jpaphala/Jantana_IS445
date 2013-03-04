@@ -1,0 +1,69 @@
+﻿body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bold;
+}
+
+hr {
+     color:#00FF00; height:8px;
+}
+
+
+a:link {
+    text-decoration: none;
+    padding-left: 20px;
+    margin: 2em;
+}
+
+a:hover
+{
+    color: red;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
+Article {
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+    font-weight:bold;
+}
+
+Section {
+    color: purple;
+    font-size: large;
+    font-weight: bold;
+}
+
+Footer {
+     
+    border-top:double; 
+    padding-top:5px;
+}
+Address {display:inline;
+    font-style: italic;
+}
+
+p {
+    width: 380px;
+}
+form {
+    width: 500px;
+}
+textarea {
+    overflow: hidden;
+}
+
+Aside {
+    background: url('http://www.pictureofcats.net/wp-content/themes/iphoto/timthumb.php?src=http://www.pictureofcats.net/wp-content/uploads/2012/10/Chow-chow-puppy-wallpaper-puppies-wallpaper-13936792-fanpop.jpg&w=285&zc=1') no-repeat top center;
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    right:380px;
+    top:200px;
+
+}

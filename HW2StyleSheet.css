@@ -1,0 +1,62 @@
+﻿body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bold;
+}
+
+hr {
+     color:#00FF00; height:8px;
+}
+
+
+a:link {
+    text-decoration: none;
+    padding-left: 20px;
+    margin: 2em;
+}
+
+a:hover
+{
+    color: red;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
+Article {
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+    font-weight:bold;
+}
+
+Section {
+    color:purple;
+    font-size:large;
+    font-weight:bold;
+    text-align:center;
+
+Footer{
+     
+    border-top:double; 
+    padding-top:5px;
+}
+Address {
+    font-style: italic;
+    display:inline;
+}
+
+form {
+    
+     padding:10px;
+     border-width:5px;
+     border-style:outset;
+     border-color:green;
+}
+textarea {
+    overflow: hidden;
+}
+
