@@ -34,29 +34,36 @@ Article {
 }
 
 Section {
-    color:purple;
-    font-size:large;
-    font-weight:bold;
-    text-align:center;
+    color: purple;
+    font-size: large;
+    font-weight: bold;
+}
 
-Footer{
+Footer {
      
     border-top:double; 
     padding-top:5px;
 }
 Address {
     font-style: italic;
-    display:inline;
 }
 
+p {
+    width: 380px;
+}
 form {
-    
-     padding:10px;
-     border-width:5px;
-     border-style:outset;
-     border-color:green;
+    width: 500px;
 }
 textarea {
     overflow: hidden;
 }
 
+Aside {
+    background: url('http://www.pictureofcats.net/wp-content/themes/iphoto/timthumb.php?src=http://www.pictureofcats.net/wp-content/uploads/2012/10/Chow-chow-puppy-wallpaper-puppies-wallpaper-13936792-fanpop.jpg&w=285&zc=1') no-repeat top center;
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    right:380px;
+    top:200px;
+
+}
