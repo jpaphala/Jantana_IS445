@@ -1,0 +1,49 @@
+﻿body {
+    width:680px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+header {
+    background-color: blue;
+    color:white;
+    width: 680px;
+    height:40px;
+}
+nav {
+    background-color: green;
+    color: white;
+    width: 680px;
+    height: 25px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+article {
+    background-color: pink;
+    color: white;
+    width: 454px;
+    height: 330px;
+}
+section {
+    background-color: brown;
+    color: white;
+    width: 454px;
+    height: 130px;
+}
+aside {
+    background-color: cyan;
+    color: white;
+    width: 227px;
+    height: 330px;
+    float:right;
+}
+footer {
+    background-color: green;
+    color: white;
+    width: 680px;
+    height: 25px;
+}
