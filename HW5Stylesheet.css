@@ -1,0 +1,10 @@
+﻿header { 
+    font-size: xx-large; 
+    font-weight:bold;
+    position:absolute;
+    top:10px;
+}
+section {
+    position: absolute;
+    top: 100px;
+}
