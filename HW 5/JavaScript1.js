@@ -9,7 +9,7 @@ var x = 0.00;
 if (isNaN(entered)) {
     alert('You must enter a valid number between 2 and 10!');
 } else if (entered <= 1 || entered >= 11) {
-    alert('Your input is ' + entered + '. The valid input is between 2 and 10.  Please reload the page and try again.');
+    alert('<h2>Your input is ' + entered + '. The valid input is between 2 and 10.  Please reload the page and try again.</h2>');
 }
 else document.writeln(str + entered +"<br />" );
 
