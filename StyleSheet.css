@@ -1,0 +1,45 @@
+﻿header {
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+
+hr {
+    width: 100%;
+    color: green;
+    height: 8px;
+}
+section {
+    font-weight: bold;
+    font-size: x-large;
+}
+Article {
+    font-weight: bold;
+    font-size: large;
+}
+footer {
+    font-style: italic;
+}
+img {
+    width: 310px;
+    height: 235px;
+}
+body {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+nav {
+    margin: 2em;
+}
+
+a.link {
+    padding-left: 20px;
+    text-decoration:none;
+}
+a.hover {
+    text-decoration: underline;
+    color: red;
+    text-transform: uppercase;
+}
