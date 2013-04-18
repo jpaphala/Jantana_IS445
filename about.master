@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="about.master.cs" Inherits="about" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MasterABout</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+ <link href="AboutStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <header>Paphala, Jantana Homework 7</header>
+        <hr />
+        <br />
+     <div id="box">   
+        <nav>
+           <a href="index.aspx">Home</a>
+           <a href="Webform.aspx">Web Form</a>
+           <a href="aboutme.aspx">About Me</a>
+        </nav>
+        <br />
+        <article>
+            About Myself
+        </article>
+         <br />
+         <section>
+             <asp:ContentPlaceHolder ID="EducationSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         </section>
+        <asp:ContentPlaceHolder ID="apContent1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <section>
+            <asp:ContentPlaceHolder ID="WorkSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         </section>
+        <asp:ContentPlaceHolder ID="apContent2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <section>
+            <asp:ContentPlaceHolder ID="ExpSectionSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>
+        <asp:ContentPlaceHolder ID="apContent3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+        <aside>
+             <asp:ContentPlaceHolder ID="apAside" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </aside>  
+         </div>
+        <br />
+        <footer>
+            <br />
+            Jpaphala&copy; Contact Information
+        
+            <address> <a href="mailto:jpaphala@yahoo.com">Email: jpaphala@yahoo.com        </a>
+                Phone:(562) 985-4554
+            </address>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

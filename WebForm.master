@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebForm.master.cs" Inherits="WebForm" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master WebForm</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <header>Paphala, Jantana Homework 7</header>
+        <hr />
+        <br />
+        
+     <div id="box">   
+        <nav>
+           <a href="index.aspx">Home</a>
+           <a href="Webform.aspx">Web Form</a>
+           <a href="aboutme.aspx">About Me</a>
+        </nav>
+        <br />
+         <article>
+              <asp:ContentPlaceHolder ID="ArticleSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         </article>
+
+        <section id="main content">
+           
+        <asp:ContentPlaceHolder ID="SectionSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>   
+          
+         <asp:ContentPlaceHolder ID="WebFormSpot" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+         </div>
+        <br />
+        <footer>
+            <br />
+            Jpaphala&copy; Contact Information
+        
+            <address> <a href="mailto:jpaphala@yahoo.com">Email: jpaphala@yahoo.com        </a>
+                Phone:(562) 985-4554
+            </address>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>
